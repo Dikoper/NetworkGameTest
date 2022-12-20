@@ -80,8 +80,8 @@ public class ActorController : NetworkBehaviour
 
     public override void OnStartLocalPlayer() 
     {
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
         playerUI.SetLocalPlayer();
         CanvasUI.SetActive(true);
